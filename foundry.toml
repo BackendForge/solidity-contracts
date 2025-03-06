@@ -1,0 +1,10 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.20"
+evm_version = "istanbul"  # or whichever version is supported by your node
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+# [etherscan]
+# api_key = { "369" = "YOUR_ETHERSCAN_API_KEY" }
